@@ -12,7 +12,7 @@ namespace OpenAIApp.Controllers
         [HttpGet]
         public async Task<IActionResult> GetData(string input)
         {
-            string apiKey = "YourKey";
+            string apiKey = "Your ChatGpt Kye";
             string response = "";
             OpenAIAPI openai=new OpenAIAPI(apiKey);
             CompletionRequest completion=new CompletionRequest();
